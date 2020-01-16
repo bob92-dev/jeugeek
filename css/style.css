@@ -27,9 +27,9 @@ body{
 .containerEnTete {
     width:1150px;
     height:130px;
-    border: 1px solid black;
     background-color: #141412;
 }
+<<<<<<< HEAD
 #firstArticle {
 	background-color: grey;
 	position: absolute;
@@ -47,3 +47,37 @@ body{
 	margin-left: 30px;
 	width: 1090px;
 }
+=======
+
+.barreR {
+    text-align: center;
+    position: absolute;
+    display: : 
+    
+    
+}
+
+#containersearch {
+    width: 390px;
+    position: absolute;
+    top: 0px;
+	left: 480px;
+}
+
+#logousers {
+    position: absolute;
+    top: 20px;
+    left: 600px;
+}
+
+#imageArt2 {
+    position: absolute;
+    top: 600px;
+    left:0px;
+}
+
+#textartcile2 {
+    text-align: center;
+    font-weight: bold;
+}
+>>>>>>> master
