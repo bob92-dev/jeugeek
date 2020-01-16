@@ -33,7 +33,7 @@ body{
 #firstArticle {
 	background-color: grey;
 	position: absolute;
-	top:130px;
+	bottom: 150px;
 }
 .textArticle{
 	text-align: center;
@@ -94,13 +94,4 @@ ul.navbar a:hover {
   background-color:yellow;
   text-decoration-color: white;
   color:black;
-}
-#imageArt2 {
-    position: absolute;
-    top: 600px;
-    left:0px;
-}
-#textartcile2 {
-    text-align: center;
-    font-weight: bold;
 }
