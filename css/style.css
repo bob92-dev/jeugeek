@@ -29,11 +29,12 @@ body{
     height:130px;
     background-color: #141412;
     position:fixed;
+    z-index: 500;
 }
 #firstArticle {
 	background-color: grey;
 	position: absolute;
-	bottom: 150px;
+	top: 150px;
 }
 .textArticle{
 	text-align: center;
@@ -55,13 +56,13 @@ body{
 #containersearch {
     width: 390px;
     position: absolute;
-    top: 0px;
+    top: 50px;
     left: 480px;
 }
 #logousers {
     position: absolute;
-    top: 20px;
-    left: 600px;
+    top: 0px;
+    right: 0px;
 }
 /* navbar*/
 .navbar{
@@ -70,6 +71,7 @@ body{
     font-size :25px;
     position:fixed;
     top:130px;
+    z-index: 500;
 }
 /*skip the bullet point for the ul*/
 ul.navbar {
