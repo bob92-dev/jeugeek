@@ -146,4 +146,7 @@ ul.navbar a:hover {
     color:white;
 
 }
-
+.formulaire {
+    position: relative;
+    display:block;
+}
