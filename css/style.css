@@ -1,0 +1,17 @@
+#container {
+	position: relative;
+	display: flex;
+	
+}
+.Logo{
+	color: yellow;
+	background-color: black;
+	font-size: 100px;
+	text-align: center;
+}
+.text{
+	color: white;
+	font-size: 25px;
+	display: flex;
+	font-family: italic cursive;
+}
