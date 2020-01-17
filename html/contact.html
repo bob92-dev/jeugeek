@@ -13,8 +13,9 @@
 						<div class="text">JeuxGeek.com
 						</div>	
 					</i>
+                    </div>
 				</a>
-			</div>
+			
 	                        <div id="containersearch">
 		                        <form>
 		                          <div class="barreR">
@@ -40,33 +41,51 @@
 		</section>	
 				
 			<div class="formulaire">
-				<form action="action.html" method="get">
-					  			
-							
-							<label>Quel est votre nom?
-								<input type="text" name="nom" placeholder="Indiquez votre nom" maxlength="18"/>
-							</label>
-							
-							
-							<label>Quel est votre prénom?
-								<input type="text" name="prenom" placeholder="Indiquez votre prénom" maxlength="18"/>
-							</label>
-	 						
-
-
-					 		<label>Entrez votre mail: 
-					    			<input type="email" name="email" placeholder = "Indiquez une adresse mail valide"/>
-					    	</label>	
-					    		
-	
-					    		<label>Laissez-nous un message
-					    		<input type="textarea">
-					    		
-					    		</label>
-					    		
-					    		<input type="submit" name="bouton" value ="Envoyer les informations"/>
-				</form>	    		
-			</div>		    		
+				<form method="post">
+        <h1>Formulaire de contact</h1>
+        <p>Veuillez remplir les champs requis par <strong><abbr title="required">*</abbr></strong>.</p>
+        <section>
+            <h2>Information de contact</h2>
+            <p>
+              <label for="name">
+                <span>Nom et Prénom: </span>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+              <input type="text" id="name" name="username">
+            </p>
+            <p>
+              <label for="mail">
+                <span>E-mail: </span>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+              <input type="email" id="mail" name="usermail">
+            </p>
+        </section>
+        <section>
+            <h2>Votre message</h2>
+            <p>
+              <label for="sujet">
+                <span>Sujet: </span>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+              <input type="text" id="name" name="usersujet" >
+            </p>
+            <p>
+              <label for="message">
+                <span>Votre message: </span>
+                <strong><abbr title="required">*</abbr></strong>
+              </label>
+              <textarea rows="9" cols="30"></textarea>
+            </p>
+        </section>
+        <section>
+            <p> <button type="submit">Validez</button> </p>
+        </section>
+    </form>	    		
+			</div>
+                <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.5127876115325!2d2.285024915641024!3d48.88656380667663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f8f0c925291%3A0xe9a1d042e738f93e!2sCCI%20Sup%20de%20Vente%20Porte%20de%20Champerret!5e0!3m2!1sfr!2sfr!4v1579208564549!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
     </div>
 
 

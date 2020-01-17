@@ -50,9 +50,9 @@ body{
 }
 .textArticle{
 	text-align: center;
-	font-size:25px;
-	font-weight: bold;
+	font-size:11px;
 	color: #3B3838;
+    height: 5000px;
 }
 
 
@@ -116,7 +116,7 @@ ul.navbar a:hover {
     text-align: center;
     font-weight: bold;
 }
-#footer {
+.footer {
 
     position: absolute;
    
@@ -133,4 +133,6 @@ ul.navbar a:hover {
     color:white;
 
 }
+
+
 
